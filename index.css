@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background: lightgrey;
+}
+
+nav {
+  background: slateblue;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: yellow;
+  margin: 10px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.picture p {
+  text-align: center;
+}
+
+#gallery {
+  width: 100%;
+}
+
+.picture {
+  display: inline-block;
+  width: 32.9%;
+}
+
+.picture img {
+  width: 100%;
+}
+
+#contact-form {
+  background: whitesmoke;
+  width: 350px;
+  margin: 4px auto;
+  text-align: center;
+  padding: 20px;
+  border: 4px ridge slateblue;
+  border-radius: 8px;
+}
+
+#input-wrapper {
+  margin-top: 20px;
+}
+
+.input-item {
+  width: 100%;
+  height: 25px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+#btn-submit {
+  background: yellow;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
